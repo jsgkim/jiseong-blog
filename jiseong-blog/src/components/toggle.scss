@@ -1,0 +1,31 @@
+.toggleWrapper {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+}
+
+.toggle {
+  font-size: 1.5rem;
+  border-radius: 30px;
+  padding: 1rem;
+  cursor: pointer;
+  color: yellow;
+}
+
+.dark {
+  background-color: #282c35;
+  transition: color 0.2s ease-out, background 0.2s ease-out;
+}
+
+.light {
+  background-color: white;
+  transition: color 0.2s ease-out, background 0.2s ease-out;
+
+  h1 {
+    color: black;
+  }
+
+  .toggle {
+    color: orange;
+  }
+}
