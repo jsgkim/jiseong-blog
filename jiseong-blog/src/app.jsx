@@ -4,7 +4,7 @@ import { MdFace } from 'react-icons/md';
 
 function App() {
   return (
-    <>
+    <div className='wrapper'>
       <header>
         <h1>Jiseong Blog</h1>
         <Toggle />
@@ -20,7 +20,7 @@ function App() {
       <footer>
 
       </footer>
-    </>
+    </div>
   );
 }
 
