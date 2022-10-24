@@ -1,13 +1,11 @@
 .toggleWrapper {
-  position: absolute;
-  top: 10%;
-  right: 15%;
+  display: block;
 }
 
 .toggle {
   font-size: 1.5rem;
   border-radius: 30px;
-  padding: 1rem;
+  padding: 0.3rem;
   cursor: pointer;
   color: yellow;
 }

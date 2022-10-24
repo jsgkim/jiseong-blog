@@ -2,7 +2,13 @@ body {
   background-color: #282c35;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
+  display: block;
   color: white;
-  position: relative;
 }

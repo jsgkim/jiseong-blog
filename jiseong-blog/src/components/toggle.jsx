@@ -3,7 +3,7 @@ import './toggle.scss';
 import { MdDarkMode, MdLightMode } from 'react-icons/md';
 
 function Toggle() {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   const handleToggle = () => {
     return setToggle(!toggle);
   };
