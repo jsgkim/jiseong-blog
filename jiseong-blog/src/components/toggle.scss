@@ -3,6 +3,9 @@
 }
 
 .toggle {
+  position: absolute;
+  top: 27px;
+  right: 30%;
   font-size: 1.5rem;
   border-radius: 30px;
   padding: 0.3rem;
@@ -13,6 +16,10 @@
 .dark {
   background-color: #282c35;
   transition: color 0.2s ease-out, background 0.2s ease-out;
+
+  aside {
+    color: white;
+  }
 }
 
 .light {
