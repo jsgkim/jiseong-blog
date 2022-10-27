@@ -18,7 +18,7 @@ function App() {
 
       </main>
       <footer>
-
+        <a href=''>contact</a>
       </footer>
     </div>
   );
