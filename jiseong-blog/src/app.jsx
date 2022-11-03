@@ -1,28 +1,14 @@
-import './app.css';
-import Toggle from './components/toggle';
-import { MdFace } from 'react-icons/md';
-import Article from './components/Article';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import ThinkingInReact from './pages/ThinkingInReact';
 
-function App() {
+const App = () => {
   return (
-    <div className='wrapper'>
-      <header>
-        <h1>Jiseong Blog</h1>
-        <Toggle />
-      </header>
-      <aside>
-        <p>
-          <MdFace /> Personal blog by <a href='https://github.com/jsgkim'>Jiseong Kim</a>.
-        </p>
-      </aside>
-      <main>
-        <Article date='August 30, 2022'>Components and Props</Article>
-        <Article date='August 30, 2022'>Rendering Elements</Article>
-      </main>
-      <footer>
-        <a href=''>contact</a>
-      </footer>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/ThinkingInReact" element={<ThinkingInReact />} />
+    </Routes>
   );
 }
 

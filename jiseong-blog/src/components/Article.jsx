@@ -1,4 +1,4 @@
-import { children } from "react";
+import React from "react";
 import './Article.scss';
 
 export default function Article({ children, date }) {

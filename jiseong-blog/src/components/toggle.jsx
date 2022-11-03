@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useState } from 'react';
 import './toggle.scss';
 import { MdDarkMode, MdLightMode } from 'react-icons/md';
