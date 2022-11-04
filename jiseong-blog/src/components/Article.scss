@@ -1,16 +1,13 @@
 article {
+  display: inline-flex;
   margin-bottom: 32px;
 }
 
 h3 {
   color: #d23669;
   font-family: Montserrat, sans-serif;
-  cursor: pointer;
   margin-bottom: 10px;
-}
-
-.header {
-  margin-bottom: 0;
+  font-size: 28px;
 }
 
 .date {

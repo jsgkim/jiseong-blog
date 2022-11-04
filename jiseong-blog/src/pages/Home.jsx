@@ -27,7 +27,7 @@ const Home = () => {
         </p>
       </aside>
       <main>
-        <Link to='/ThinkingInReact'><Article>리액트로 생각하기</Article></Link>
+        <Link to='/ThinkingInReact'><Article>Thinking In React</Article></Link>
       </main>
       <footer>
         <a

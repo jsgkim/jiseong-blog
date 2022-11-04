@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import Toggle from "./components/toggle";
-import { Outlet } from "react-router-dom";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 const Layout = () => {
-  const activeStyle = { color: '#ffa7c4', fontSize: '22px' }
   return (
     <div className='wrapper'>
       <header>
