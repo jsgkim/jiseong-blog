@@ -14,7 +14,8 @@
   background-color: #282c35;
   transition: color 0.2s ease-out, background 0.2s ease-out;
 
-  p {
+  p,
+  .home_h1 {
     color: white;
   }
 
@@ -28,7 +29,8 @@
   background-color: white;
   transition: color 0.2s ease-out, background 0.2s ease-out;
 
-  h1 {
+  h1,
+  .home_h1 {
     color: black;
   }
 

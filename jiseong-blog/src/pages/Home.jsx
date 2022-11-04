@@ -1,5 +1,4 @@
 import React from 'react';
-import Toggle from '../components/toggle';
 import { MdFace } from 'react-icons/md';
 import Article from '../components/Article';
 import { Link } from 'react-router-dom';
@@ -13,11 +12,7 @@ const Home = () => {
   const handleMouseEnter2 = () => { setIsHovering2(true) };
   const handleMouseLeave2 = () => { setIsHovering2(false) };
   return (
-    <div className='wrapper'>
-      <header>
-        <Link to='/'><h1>Jiseong Blog</h1></Link>
-        <Toggle />
-      </header>
+    <div>
       <aside>
         <p>
           <MdFace /> Personal blog by&nbsp;
