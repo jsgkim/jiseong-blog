@@ -1,0 +1,22 @@
+.container {
+  box-sizing: border-box;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.devinfoContainer {
+  box-sizing: border-box;
+  width: 330px;
+  padding: 20px;
+  background-color: gray;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.note {
+  box-sizing: border-box;
+  width: 330px;
+  text-align: center;
+}
